@@ -209,5 +209,14 @@ include vendor/pti/google/GoogleAudio.mk
 
 EXTENDED_POST_PROCESS_PROPS := vendor/pti/tools/pti_process_props.py
 
+# Google fonts
+PRODUCT_COPY_FILES += \
+    vendor/pti/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
+    vendor/pti/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/pti/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/pti/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
+    vendor/pti/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
+    vendor/pti/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+
 # Packages
 include vendor/pti/config/packages.mk

@@ -1,7 +1,7 @@
 # Inherit common stuff
-$(call inherit-product, vendor/gzosp/config/common.mk)
+$(call inherit-product, vendor/pti/config/common.mk)
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/gzosp/overlay/tablet
+PRODUCT_PACKAGE_OVERLAYS += vendor/pti/overlay/tablet
 
 # BT config
 PRODUCT_COPY_FILES += \

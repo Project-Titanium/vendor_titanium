@@ -1,14 +1,14 @@
 bootstrap_go_package {
-    name: "soong-gzosp",
-    pkgPath: "gzosp/soong/android",
+    name: "soong-pti",
+    pkgPath: "pti/soong/android",
     srcs: [
         "android/variable.go",
     ],
 }
 
 bootstrap_go_package {
-    name: "soong-gzosp-generator",
-    pkgPath: "gzosp/soong/generator",
+    name: "soong-pti-generator",
+    pkgPath: "pti/soong/generator",
     deps: [
         "blueprint",
         "blueprint-pathtools",
@@ -23,7 +23,7 @@ bootstrap_go_package {
     pluginFor: ["soong_build"],
 }
 
-gzosp_generator {
+pti_generator {
     name: "generated_kernel_includes",
 
     // The headers make command

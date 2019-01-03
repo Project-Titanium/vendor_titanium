@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gzosp_arm.mk \
-    $(LOCAL_DIR)/gzosp_arm64.mk \
-    $(LOCAL_DIR)/gzosp_x86.mk
+    $(LOCAL_DIR)/pti_arm.mk \
+    $(LOCAL_DIR)/pti_arm64.mk \
+    $(LOCAL_DIR)/pti_x86.mk

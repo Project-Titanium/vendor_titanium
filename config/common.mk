@@ -208,3 +208,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 include vendor/pti/google/GoogleAudio.mk
 
 EXTENDED_POST_PROCESS_PROPS := vendor/pti/tools/pti_process_props.py
+
+# Packages
+include vendor/pti/config/packages.mk

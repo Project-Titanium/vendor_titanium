@@ -184,7 +184,7 @@ endif
 # Versioning System
 PRODUCT_VERSION_MAJOR = Beta
 PRODUCT_VERSION_MAINTENANCE = 0.5
-PTI_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
+PTI_POSTFIX := -$(shell date -u +%Y%m%d)
 ifdef PTI_BUILD_EXTRA
     PTI_POSTFIX := -$(PTI_BUILD_EXTRA)
 endif

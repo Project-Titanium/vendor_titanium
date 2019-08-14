@@ -1,1 +1,7 @@
-adfasf
+Release Stable 1.0:
+-Performance Mode
+-Android Q UI 
+-Dark UI
+-Easter Egg ;)
+-Customization
+-Latest Security(August 2019)

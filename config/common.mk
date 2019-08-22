@@ -175,15 +175,14 @@ $(foreach size,$(bootanimation_sizes), $(call check_and_set_bootanimation,$(size
 ifeq ($(TARGET_BOOTANIMATION_HALF_RES),true)
 PRODUCT_COPY_FILES += \
     vendor/pti/prebuilt/common/bootanimation/halfres/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip \
-    vendor/pti/Memes/*:system/media/Easter-Egg/*
 else
 PRODUCT_COPY_FILES += \
     vendor/pti/prebuilt/common/bootanimation/$(TARGET_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip \
-    vendor/pti/Memes/*:system/media/Easter-Egg/*
 endif
 endif
 
 PRODUCT_COPY_FILES += \
+    vendor/pti/Memes/*:system/media/Easter-Egg/*
     vendor/pti/changelog.txt:system/etc/changelog.txt
 
 # Versioning System

@@ -224,3 +224,4 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 include vendor/pti/config/packages.mk
+endif

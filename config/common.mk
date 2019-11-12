@@ -54,7 +54,7 @@ include vendor/titanium/config/packages.mk
 include vendor/titanium/config/branding.mk
 
 # Themes
-include vendor/themes/common.mk
+include vendor/themes/main.mk
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/titanium/overlay/common

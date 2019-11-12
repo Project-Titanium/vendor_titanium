@@ -29,12 +29,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     net.tethering.noprovisioning=true
 
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
-    vendor/du/prebuilt/common/bin/sysinit:system/bin/sysinit
+    vendor/titanium/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/titanium/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # Init files
 PRODUCT_COPY_FILES += \
-    vendor/du/prebuilt/common/etc/init.local.rc:system/etc/init/dirtyunicorns.rc
+    vendor/titanium/prebuilt/common/etc/init.local.rc:system/etc/init/titanium.rc
 
 # Backup tool
 PRODUCT_COPY_FILES += \
@@ -44,17 +44,17 @@ PRODUCT_COPY_FILES += \
 
 # Weather client
 #PRODUCT_COPY_FILES += \
-#    vendor/du/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
-#    vendor/du/prebuilt/common/etc/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
+#    vendor/titanium/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
+#    vendor/titanium/prebuilt/common/etc/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
 
 # Packages
-include vendor/du/config/packages.mk
+include vendor/titanium/config/packages.mk
 
 # Branding
-include vendor/du/config/branding.mk
+include vendor/titanium/config/branding.mk
 
 # Themes
 include vendor/themes/common.mk
 
 # Overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/titanium/overlay/common

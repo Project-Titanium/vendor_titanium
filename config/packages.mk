@@ -1,7 +1,8 @@
 # Packages
 PRODUCT_PACKAGES += \
     WallpaperPicker2 \
-    KiwiBrowser
+    KiwiBrowser \
+    RetroMusicPlayer
 
 # Include librsjni explicitly to workaround GMS issue
 PRODUCT_PACKAGES += \
